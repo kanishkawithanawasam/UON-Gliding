@@ -4,6 +4,12 @@ This website is the new developed for University of Nottingham's Gliding club. T
 CSS,HTML and Javascript. The structure and the functionality of the website kept similar to the previous website. However, more secure ways were usued to store sensitive 
 data.
 
+##### Home page Photo.
+
+![Home Page](/assets/Home.png "Home Page")
+
+
+
 ### New Features
 - Ability to save Sign Up forms.
 - Saving personal data in a databse in an encripted manner.
