@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'GlidingCub'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BDDE14D1ED5842E58FAD509113BAC937 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E9A7BCC9B4544B559B8ECD44AB7EDF84 }}
           package: .
