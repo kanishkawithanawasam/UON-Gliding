@@ -31,7 +31,7 @@
                 <option value="">Prefer not to say</option>
             </select>
 
-            <label for="studentID"><b>Student ID</b><br/><span class="assosiate">(Assosiate members please leave this blank)</span></label>
+            <label for="studentID"><b>Student ID</b><br/><div class="assosiate">(Assosiate members please leave this blank)</div></label>
             <input type="number" name="studentID">
 
             <label for="email"><b>University Email</b></label>

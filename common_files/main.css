@@ -202,7 +202,7 @@ main{
     }
 
     .main_nav{
-        /*display: none;*/
+        display: none;
     }
 
     .itemgroup3 table{
@@ -217,7 +217,21 @@ main{
     .form{
         display: block !important;
     }
-    
+    .form>label,
+    .form>input{
+        display:block;
+        width: 95% !important;
+    }
+
+    .assosiate{
+        position: relative !important;
+    }
+
+    .form>input,
+    .form>select{
+        margin-bottom:20px;
+    }
+
 }
 
 .itemgroup article{
