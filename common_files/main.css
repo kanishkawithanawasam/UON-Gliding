@@ -213,6 +213,11 @@ main{
     .itemgroup3 th, .itemgroup3 td{
         padding:10px !important;
     }
+
+    .form{
+        display: block !important;
+    }
+    
 }
 
 .itemgroup article{
