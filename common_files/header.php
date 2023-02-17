@@ -4,12 +4,12 @@
                 <a href="index.php" class="logo"><img src="./media/uon-gliding.png" alt="sports image"></a>
                 <ul>
                     <li class="dropdown_container" style="margin-left: 10px;">
-                        <a class="drop_active">Gliding</a>
+                        <a class="drop_active" href="../index.php">Gliding</a>
                         <div class="dropdown">
                             <div>
-                                <a href="how_gliders_fly.php">How gliders fly  <i class="bi bi-chevron-right"></i></a>
-                                <a href="training.php">training  <i class="bi bi-chevron-right"></i></a>
-                                <a href="aerobatics.php">Aerobatics  <i class="bi bi-chevron-right"></i></a>
+                                <a href="../pages/how_gliders_fly.php">How gliders fly  <i class="bi bi-chevron-right"></i></a>
+                                <a href="../pages/training.php">training  <i class="bi bi-chevron-right"></i></a>
+                                <a href="../pages/aerobatics.php">Aerobatics  <i class="bi bi-chevron-right"></i></a>
                                 <a href="">Safety  <i class="bi bi-chevron-right"></i></a>
                             </div>
                         </div>

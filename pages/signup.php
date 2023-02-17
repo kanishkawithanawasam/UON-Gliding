@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php require 'common_files/headfiles.php' ?>
+    <?php require '../common_files/headfiles.php' ?>
     <title>Sign Up form -  University of Nottingham Gliding Club</title>
 </head>
 <body>
-    <?php include 'common_files/header.php' ?>
+    <?php include '../common_files/header.php' ?>
     <main class="form_main">
         <h1 class="form_heading">Weekly sign-up form</h1>
         <hr>
@@ -69,6 +69,6 @@
             <input type="tel" name="mobile">
         </form>
     </main>
-    <?php include 'common_files/footer.php'?>
+    <?php include '../common_files/footer.php'?>
 </body>
 </html>

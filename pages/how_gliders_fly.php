@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php require 'common_files/headfiles.php' ?>
+    <?php require '../common_files/headfiles.php' ?>
     <title>Sign Up form -  University of Nottingham Gliding Club</title>
 </head>
 <body>
-    <?php include 'common_files/header.php' ?>
+    <?php include '../common_files/header.php' ?>
     <main >
         <div class="info_article" >
             <h1>How Gliders Fly</h1>
@@ -25,7 +25,7 @@
                 engine (thrust) to stay airborne. This is simply not true, in fact when designing a new aircraft, aircraft manufacturers 
                 have to design it so that they can glide for a certain distance without any engines working at all.
                 <div class="img_container">
-                        <img src="./media/theory-forces.gif" alt="Forces of a flight">
+                        <img src="../media/theory-forces.gif" alt="Forces of a flight">
                 </div>
 
                 The diagram above shows the forces acting on a powered plane and a glider in flight. 
@@ -65,7 +65,7 @@
                     <h4>Winch Launching</h4>
                     <div>
                          <div class="img_container">
-                            <img src="./media/winch-launch.jpeg" alt="Winch launching a glider" srcset="https://www.camgliding.uk/wp-content/uploads/2019/03/Picture1.jpg">
+                            <img src="../media/winch-launch.jpeg" alt="Winch launching a glider" srcset="https://www.camgliding.uk/wp-content/uploads/2019/03/Picture1.jpg">
                         </div>
                         Perhaps the most common method of launching gliders is by winch launch. 
                         The idea is that at the opposite end of the airfield, there is a large winch, with a 
@@ -87,7 +87,7 @@
                     <h4>Aerotowing</h4>
                     <div>
                         <div class="img_container">
-                            <img src="./media/aerotow.jpeg" alt="aerotowing a glider">
+                            <img src="../media/aerotow.jpeg" alt="aerotowing a glider">
                         </div>
                         Gliders are also commonly launched by aerotow. The glider is attached to a powered aircraft with a rope, 
                         the powered aircraft then takes off and climbs, dragging the glider along with it. Once the glider is at an 
@@ -136,7 +136,7 @@
                         <h4>Ridge Lift</h4>
                         <div>
                             <div class="img_container">
-                                <img src="./media/ridge.png" alt="Ridge lift" >
+                                <img src="../media/ridge.png" alt="Ridge lift" >
                             </div>
                             Ridge lift is the easiest to imagine – the wind blows against the face of a hill (or a cliff), 
                             and the hill deflects the air upwards. The glider can fly in this upward moving air to gain height or stay 
@@ -149,7 +149,7 @@
                         <h4>Thermal Lift</h4>
                         <div>
                             <div class="img_container">
-                                <img src="./media/thermal.png" alt="Thermal lift" >
+                                <img src="../media/thermal.png" alt="Thermal lift" >
                             </div>
                             In the summer (or even in spring and autumn when the sun is shining) different areas of the ground will 
                             heat up in the sun faster than others (for example, dark fields). These warmer areas heat up the air around them, 
@@ -170,7 +170,7 @@
                         <h4>Wave Lift</h4>
                         <div>
                             <div class="img_container">
-                                <img src="./media/thermal.png" alt="Thermal lift" >
+                                <img src="../media/thermal.png" alt="Thermal lift" >
                             </div>
                            
                         </div>
@@ -210,6 +210,6 @@
         </div>
     </main>
 
-    <?php include 'common_files/footer.php'?>
+    <?php include '../common_files/footer.php'?>
 </body>
 </html>
