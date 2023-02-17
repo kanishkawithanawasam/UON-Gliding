@@ -1,7 +1,7 @@
 <header>
         <nav class="main_nav">
             <div>
-                <a href="index.php" class="logo"><img src="./media/uon-gliding.png" alt="sports image"></a>
+                <a href="../index.php" class="logo"><img src="../media/uon-gliding.png" alt="sports image"></a>
                 <ul>
                     <li class="dropdown_container" style="margin-left: 10px;">
                         <a class="drop_active" href="../index.php">Gliding</a>
