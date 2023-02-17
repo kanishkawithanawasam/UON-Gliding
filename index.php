@@ -45,6 +45,11 @@
     <main>
         <h1 class="main_heading">Welcome to University of Nottingham Gliding Club</h1>
         <div class="itemgroup">
+            <video class="video" id="mainVideo" controls autoplay loop>
+                <source src="./media/gliding_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
             <article>
                 <p>
                     The University of Nottingham Gliding Club welcomes any University of 
@@ -61,12 +66,6 @@
                 </p>
             </article>
         
-            
-            <video class="video" controls autoplay loop>
-                <source src="./media/gliding_video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            
         </div>
 
 
@@ -143,5 +142,8 @@
         </div>
     </main>
     <?php include 'common_files/footer.php'?> 
+    <script>
+        document.getElementById("mainVideo").play();
+    </script>
 </body>
 </html>
