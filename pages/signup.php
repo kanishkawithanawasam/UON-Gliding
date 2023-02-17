@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php require('../common_files/headfiles.php') ?>
+    <?php require("../common_files/headfiles.php") ?>
     <title>Sign Up form -  University of Nottingham Gliding Club</title>
 </head>
 <body>
