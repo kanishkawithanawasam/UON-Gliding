@@ -100,7 +100,7 @@
                 </p>
             </article>
             <div>
-                <a class="butn" href="signup.php"> <p class="txt">&nbsp; Sign Up Form <i class="bi bi-chevron-right"></i></p> </a>
+                <a class="butn" href="../pages/signup.php"> <p class="txt">&nbsp; Sign Up Form <i class="bi bi-chevron-right"></i></p> </a>
             </div>
         </div>
 
