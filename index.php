@@ -17,7 +17,7 @@
                                 <a href="pages/how_gliders_fly.php">How gliders fly  <i class="bi bi-chevron-right"></i></a>
                                 <a href="pages/training.php">training  <i class="bi bi-chevron-right"></i></a>
                                 <a href="pages/aerobatics.php">Aerobatics  <i class="bi bi-chevron-right"></i></a>
-                                <a href="">Safety  <i class="bi bi-chevron-right"></i></a>
+                                <a href="pages/safety.php">Safety  <i class="bi bi-chevron-right"></i></a>
                             </div>
                         </div>
                     </li>
