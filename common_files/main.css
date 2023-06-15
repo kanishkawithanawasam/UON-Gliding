@@ -10,15 +10,64 @@ body{
     
 }
 
-article{
-    font-family: 'Roboto', sans-serif;
-}
-
 @media screen and (min-width:1400px) {
     body{
         margin: 0 auto !important;
     }
  }
+ @media screen and (max-width:950px) {
+    .itemgroup{
+        grid-template-columns: 100% !important;
+        margin-left: auto;
+        row-gap: 20px;
+    }
+
+    .main_nav{
+        display: none !important;
+    }
+
+    .main_heading{
+        font-size: 1.5rem !important;
+    }
+
+    .itemgroup3 table{
+        width: 95% !important;
+        
+    }
+
+    .itemgroup3 th, .itemgroup3 td{
+        padding:10px !important;
+    }
+
+    .social{
+        width: 40% !important;
+    }
+
+    .form{
+        display: block !important;
+    }
+    .form>label,
+    .form>input{
+        display:block;
+        width: 95% !important;
+    }
+
+    .assosiate{
+        position: relative !important;
+    }
+
+    .form>input,
+    .form>select{
+        margin-bottom:20px;
+    }
+
+}
+
+article{
+    font-family: 'Roboto', sans-serif;
+}
+
+
  
 /*Styling for navigation bar*/
 header{
@@ -36,6 +85,15 @@ header{
 
 .main_nav div{
     display: flex;
+    justify-content: space-between;
+}
+
+.mob_nav .icon{
+    background: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .logo{
@@ -43,6 +101,7 @@ header{
     border-radius: 0 !important;
     height: 100% !important ;
     padding: 18px 20px !important;
+    border: 0 !important;
 }
 
 .main_nav ul{
@@ -76,7 +135,7 @@ header{
 }
 
 
-.main_nav img{
+.main_nav img,.mob_nav img{
     height: 30px;
 }
 
@@ -153,6 +212,15 @@ header{
     color: var(--main-bg-green);
 }
 
+.mob_nav{
+    display: flex;
+}
+
+
+
+
+
+
 /*Styling for main body*/
 
 main{
@@ -192,61 +260,33 @@ main{
     grid-template-columns: 45% 50%;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
 }
 
-@media screen and (max-width:750px) {
-    .itemgroup{
-        grid-template-columns: 100% !important;
-        margin-left: auto;
-        row-gap: 20px;
-    }
-
-    .main_nav{
-        display: none;
-    }
-
-    .itemgroup3 table{
-        width: 95% !important;
-        
-    }
-
-    .itemgroup3 th, .itemgroup3 td{
-        padding:10px !important;
-    }
-
-    .form{
-        display: block !important;
-    }
-    .form>label,
-    .form>input{
-        display:block;
-        width: 95% !important;
-    }
-
-    .assosiate{
-        position: relative !important;
-    }
-
-    .form>input,
-    .form>select{
-        margin-bottom:20px;
-    }
-
-}
 
 .itemgroup article{
     font-family: 'Roboto', sans-serif;
     border-radius: 15px;
-    padding: 15px;
-    background-image: url("../media/nugc1.jpeg");
-    background-size: 101%;
+    background-image: url("../assets/nugc2.png");
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     border: 5px solid var(--main-bg-green) ;
+}
+
+.itemgroup article div{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px;
+    border-radius: 5px;
 }
 
 .itemgroup article p{
     text-align: justify;
     font-size: 1.2em;
+    margin: 0 !important;
     color: var(--main-bg-green);
 }
 
