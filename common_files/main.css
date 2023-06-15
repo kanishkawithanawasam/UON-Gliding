@@ -9,7 +9,6 @@ body{
     background: #f9fff8;
     
 }
-
 @media screen and (min-width:1400px) {
     body{
         margin: 0 auto !important;
@@ -24,6 +23,9 @@ body{
 
     .main_nav{
         display: none !important;
+    }
+    .mob_nav{
+        display: flex !important;
     }
 
     .main_heading{
@@ -86,14 +88,6 @@ header{
 .main_nav div{
     display: flex;
     justify-content: space-between;
-}
-
-.mob_nav .icon{
-    background: white;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
 }
 
 .logo{
@@ -212,12 +206,25 @@ header{
     color: var(--main-bg-green);
 }
 
+
+/* Mobile Navigation */
 .mob_nav{
-    display: flex;
+    display: none;
+    background-color: var(--main-bg-green);
+    justify-content: space-between;
+    align-items: center;
 }
 
-
-
+.burger{
+    width: 35px;
+    padding: 10px;
+}
+.burger div{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
 
 
 

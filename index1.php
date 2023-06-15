@@ -6,15 +6,6 @@
 </head>
 <body>
 <header>
-        <nav class="mob_nav">
-            <a href="index.php" class="logo"><img src="./media/uon-gliding.png" alt="sports image"></a>
-            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </nav>
-
-
         <nav class="main_nav">
             <div>
                 <a href="index.php" class="logo"><img src="./media/uon-gliding.png" alt="sports image"></a>

@@ -6,6 +6,17 @@
 </head>
 <body>
 <header>
+        <nav class="mob_nav">
+            <a href="index.php" class="logo"><img src="./media/uon-gliding.png" alt="sports image"></a>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+
+
         <nav class="main_nav">
             <div>
                 <a href="index.php" class="logo"><img src="./media/uon-gliding.png" alt="sports image"></a>
@@ -146,6 +157,9 @@
     <?php include 'common_files/footer.php'?> 
     <script>
         document.getElementById("mainVideo").play();
+
+        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+        
     </script>
 </body>
 </html>

@@ -6,3 +6,13 @@ for (let index = 0; index < rows.length; index++) {
         rows[index].style.background="#d9ffe1";
     }
 }
+
+
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    }
